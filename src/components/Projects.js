@@ -8,7 +8,7 @@ export default function Projects() {
         projects : [
             {
                 image: websiteImg1,
-                description: 'Revolutionized the hardware industry with a MERN stack-powered web platform, linking hardware shop owners, rental services, and laborers directly to customers. Streamlined communication and product information exchange through a centralized hub, enhancing overall efficiency in business consumer interactions, Built using React Js, Node Js, Express Js, Mongo DB, Mongoose, Figma, Github, Trello',
+                description: 'Our MERN stack-powered web platform revolutionizes the hardware industry, connecting shop owners, rental services, and laborers directly to customers. This centralized hub streamlines communication and product information exchange, boosting overall efficiency., Built using React Js, Node Js, Express Js, Mongo DB, Mongoose',
                 link: 'https://github.com/rmohamedsabith/sitesupplycraft'
             },
             {
@@ -35,7 +35,7 @@ export default function Projects() {
             <div className='flex flex-col md:flex-row px-10 gap-5'>
                 {config.projects.map((project) => (
                      <div className='relative'>
-                        <img className='h-[300px] w-[500px]' src={project.image}/>
+                        <img className=' h-[400px] w-[600px] md:h-[300px] w-[500px]' src={project.image}/>
                         <div className='project-desc'>
                             <p className='text-center px-5 py-5'>{project.description}</p>
                             <div className='flex justify-center'>
