@@ -5,7 +5,7 @@ export default function About () {
         line1: 'Hi, My name is Mohamed Sabith. I am a Full stack web developer. I built beautiful Websites with React.js , Tailwind CSS + Bootstrap',
         line2: 'I am proficient in Frontend skills like React.js, Redux, Redux Tool Kit, Axios, Css3, Tailwind CSS and many more.',
         line3: 'In backend I know Node.js, Express.js, Spring Boot, MySql, Microsoft SQL Server, MongoDB, and Mongoose',
-        line4: 'Programming Language:- C, C#, Java, Java Script, Python(Reading)'
+        line4: 'Programming Language:- C, C#, Java, Java Script,PHP, Python(Reading),Go(Reading)'
     }
 
     return <section className='flex flex-col md:flex-row bg-secondary px-5' id='about'>
